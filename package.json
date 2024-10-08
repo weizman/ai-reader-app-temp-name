@@ -1,0 +1,31 @@
+{
+  "name": "gpt-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-env": "node --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines" : {
+    "node" : ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weizman/gpt-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weizman/gpt-test/issues"
+  },
+  "homepage": "https://github.com/weizman/gpt-test#readme",
+  "dependencies": {
+    "@notionhq/client": "^2.2.4",
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "openai": "^4.67.2"
+  }
+}
