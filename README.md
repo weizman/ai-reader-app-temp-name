@@ -46,6 +46,8 @@ This used to be deployed on fly.io, but since then they ask for credit card info
 
 However, thanks to Telegram's awesome infra, running this locally is very easy and does the job just as well.
 
+The bot I created for this is "reader555bot"@Telegram, sometimes it's up, you can try talking to it (the name will change if this ever becomes serious)
+
 ## Develop
 
 The code just puts stuff together, basically just:
